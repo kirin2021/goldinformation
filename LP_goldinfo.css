@@ -1,0 +1,73 @@
+body{
+    font-family: "Osaka";
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: rgb(203, 255, 255);
+    height: 90px;
+}
+
+.header-logo{
+    background-color: rgb(225, 240, 15);
+    float: left;
+    font-size: 36px;
+    padding:5px;
+    margin: 15px;
+}
+
+.header-list li{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+.main{
+    padding: 100px 80px;
+}
+
+.copy-container{  
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-title{
+    font-size: 30px;
+    padding-right: 15px;
+}
+.contents-items{
+    background-color: aquamarine;
+    padding: 100px 0px 300px 0px;
+}
+.contents-item{
+    float: left;
+    padding: 5px;
+    margin-left: 6%;  
+}
+.contents-item p{
+    text-align: center;
+}
+
+.footer{
+    clear: left;
+    background-color: rgb(203, 255, 255);
+    height: 100px;
+    padding-top: 10px;
+}
+
+.footer-logo{
+    background-color: rgb(225, 240, 15);
+    float: left;
+    font-size: 18px;
+    padding:10px;
+    margin: 25px;
+}
+
+.footer-list{
+    float: right;
+    margin: 15px;
+    font-size: 10px;
+}
