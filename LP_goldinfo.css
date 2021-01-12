@@ -12,15 +12,15 @@ li{
 }
 
 .header-logo{
-    background-color: rgb(225, 240, 15);
     float: left;
-    font-size: 36px;
-    padding:5px;
     margin: 15px;
+}
+.header-logo img{
+    border-radius: 50%;
 }
 
 .header-list li{
-    float: left;
+    float: right;
     padding: 10px;
     margin: 20px;
 }
@@ -29,9 +29,18 @@ li{
     padding: 100px 80px;
 }
 
-.copy-container{  
+.copy-container{ 
+    padding: 100px;
+    background-image: url(container.jpeg);
+    background-size: cover;
+    opacity: 0.3;
+}
+.copy-container-mask{
+    
+    text-align: center;  
     font-size: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: none;
 }
 
 .section-title{
@@ -39,16 +48,28 @@ li{
     padding-right: 15px;
 }
 .contents-items{
-    background-color: aquamarine;
-    padding: 100px 0px 300px 0px;
+    display: flex;
+    
 }
 .contents-item{
-    float: left;
-    padding: 5px;
-    margin-left: 6%;  
-}
-.contents-item p{
+    font-size: 1.2em;
+    background: #9ff0d5;
+    padding: 20px;
+    margin: 10px;
     text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 20px;
+}
+
+.contents-item img{
+    border-radius: 20px;
+}
+
+.contents-item p{
+    padding: 15px 20px;
+    margin: 0;
 }
 
 .footer{
@@ -59,11 +80,11 @@ li{
 }
 
 .footer-logo{
-    background-color: rgb(225, 240, 15);
-    float: left;
-    font-size: 18px;
-    padding:10px;
-    margin: 25px;
+    float: right;
+    margin: 15px;
+}
+.footer-logo img{
+    border-radius: 50%;
 }
 
 .footer-list{
